@@ -1,0 +1,29 @@
+/* Estilo para el encabezado con imagen de fondo y superposición de texto */
+.header-with-image {
+    position: relative;
+    background-image: url('https://th.bing.com/th/id/OIP.5g7QXzxt8ON3GCnYq-XnUwHaB-?rs=1&pid=ImgDetMain');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    color: white;
+}
+
+.header-with-image .overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* Estilo para los emojis */
+.emoji {
+    font-size: 2em;
+}
+
+/* Estilo para la sección de llamado a la acción */
+.cta {
+    background-color: #17a2b8;
+    color: white;
+    text-align: center;
+}

@@ -1,66 +1,71 @@
 <!DOCTYPE html>
-<html lang ="en">
-  <head>
-    <meta charset="uft-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Plataforma</title>
-    <link rel="stylesheet" href="./Style/Style.css"> <!-- Enlace al archivo CSS -->
-  </head>
-<body class="body">
-        <!--botoneras-->
-        <div class="container">
-            <div class="button-container">
-                <a href="url_de_plataforma" class="button-l" title="Ir a la plataforma">Plataforma</a>
-            </div>            
-            <div class="button-group">
-                <a href="url_de_inicio" class="button-s" title="Ir a inicio">Inicio</a>
-                <a href="url_de_acerca" class="button-s" title="Ir a acerca">Acerca</a>
-                <a href="url_de_servicio" class="button-s" title="Ir a Servicio">Servicio</a>
-                <a href="url_de_contacto" class="button-s" title="Ir a Contacto">Contacto</a>
-            </div>
-        </div>
-    <div class="container">
-        <div class="background-image">
-            <div class="content">
-                <h1 class="header_text">Encabezado Principal</h1>
-                <p class="lead">Subtitulo Descriptivo</p>
-                <div class="center">
-                    <button class="button_blue">Boton</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    </div>
-    <div class="container">
-        <div class="column">
-            <div class="card">
+<html lang="es">
 
-                <h1 class="header">👉</h1>
-                <h2>Metrica 1</h2>
-                <p>Descripcion metrica 1</p>
-            </div>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Certamen 2</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
 
-            <div class="card">
-                <h1 class="header">💻</h1>
-                <h2>Metrica 2</h2>
-                <p>Descripcion metrica 2</p>
-            </div>
-            <div class="card">
-                <h1 class="header">🚀</h1>
-                <h2>Metrica 3</h2>
-                <p>Descripcion metrica 3</p>
-            </div>
-        </div>
-    </div>
+<body>
+  <!-- Barra de navegación -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
-        <div class="foot">
-            <div class="row">
-                <h2 class="header">Únete a nuestra comunidad hoy mismo</h2>
-                <div class="center">
-                    <button class="button_reg">Registrate</button>
-                </div>
-            </div>
-        </div>
+      <a class="navbar-brand" href="#">Comunidad</a>
+      <div class="navbar-collapse justify-content-end">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Acerca</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Servicios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contacto</a>
+          </li>
+        </ul>
+      </div>
     </div>
-</body>
-</html>
+  </nav>
+  <!-- Encabezado con imagen de fondo y superposición de texto -->
+  <header class="header-with-image">
+    <div class="overlay">
+      <h1 class="text-center">Título Principal</h1>
+      <p class="text-center">Descripción de fondo</p>
+      <button type="button" class="btn btn-primary">Botón</button>
+    </div>
+  </header>
+  <!-- Sección de métricas -->
+  <section class="container my-4 text-center">
+
+    <div class="row">
+      <div class="col-md-4">
+        <div class="emoji">&#x1F449;</div>
+        <h3>Métrica 1</h3>
+        <p>Descripción de la métrica 1</p>
+      </div>
+      <div class="col-md-4">
+        <div class="emoji">&#x1F4BB;</div>
+        <h3>Métrica 2</h3>
+        <p>Descripción de la métrica 2</p>
+      </div>
+      <div class="col-md-4">
+        <div class="emoji">&#x1F680;</div>
+        <h3>Métrica 3</h3>
+        <p>Descripción de la métrica 3</p>
+      </div>
+    </div>
+  </section>
+  <section class="cta" style="padding: 40px 0;">
+    <div class="container py-4">
+      <h2 class="text-center">Únete a nuestra comunidad hoy mismo</h2>
+      <div class="text-center">
+        <a href="#" class="btn btn-light">Regístrate</a>
+      </div>
+    </div>
+  </section>
